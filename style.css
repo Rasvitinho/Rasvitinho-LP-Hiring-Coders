@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background: url('images/Background.png') no-repeat center center fixed;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;    
+}
+
+.logo img {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.conteudo {
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.conteudo div {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 100px 15px ;
+}
+
+.conteudo h3{
+    color: 	#FF4500;
+    text-align: center;
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo p{
+    text-align: center; 
+    color: #8b008b;
+    font-size: 30px;
+}
+
+.formulario{
+    background: #007e8fce;
+    border-color: #f30000 solid 3px;
+    border-radius: 10px;
+    padding: 20px;    
+    
+}
+
+.formulario input[type="nome"], .formulario input[type="email"], .formulario input[type="telefone"]{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;
+    box-shadow: inset 0px 1px 4px rgb(0, 0, 0 / 75%);
+
+}
+
+.formulario label{
+    display: block;
+    padding-left: 15px;
+   
+}
+
+
+.formulario input[type="submit"]{
+    width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #ffffff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: rgb(0, 0, 0);
+}
+.formulario label{display: block;}
+.destaque{color: #fff}
+.aceite{font-size: 12px}
+
+
+
+.conteudoabaixo{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid 4px #f30000;
+}
+
+.info{
+    text-align: center;color: #fff
+}
+.info h3{
+    color: 	#FF4500;
+    text-align: center;
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.info p{
+    text-align: center; 
+    color: #8b008b;
+    font-size: 17px;
+}
+
+.vantagens{
+    overflow: hidden;
+}
+
+.vantagens div{
+    display: inline-flex
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.vantagens img{
+    display:block;
+    margin: 0 auto;
+    width:40px; 
+    height:40px;
+}
+
+.vantagens p{
+    text-align: center; color:#fff;    
+}
